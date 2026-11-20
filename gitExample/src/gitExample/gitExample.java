@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class gitExample {
 	
-	public static int add (int a, int b) {}
+	public static int add (int a, int b) {
+		int c = a+a+b+b;
+		return c;
+	}
 	
 	public static int subt (int a, int b) {
 		int c = a-b;
