@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class gitExample {
 	
 	public static int add (int a, int b) {
-		int c = a+b;
+		int c = a+1+b;
 		return c;
 	}
 	
