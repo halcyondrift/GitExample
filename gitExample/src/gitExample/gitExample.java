@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class gitExample {
 	
 	public static int add (int a, int b) {
-		int c = a+a+b+b;
+		int c = a+b;
 		return c;
 	}
 	
@@ -14,7 +14,10 @@ public class gitExample {
 		return c;
 	}
 	
-	public static int mult (int a, int b) {}
+	public static int mult (int a, int b) {
+		int c = a*b;
+		return c;
+	}
 	
 	public static int div (int a, int b) {}
 	
@@ -34,7 +37,9 @@ public class gitExample {
 		else if (code==1) {
 			System.out.println(subt(num1,num2));
 		}
-		else if (code==2) {}
+		else if (code==2) {
+			System.out.println(mult(num1,num2));
+		}
 		else if (code==3) {}
 		else {}
 	}
