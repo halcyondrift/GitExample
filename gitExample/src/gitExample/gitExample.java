@@ -19,7 +19,10 @@ public class gitExample {
 		return c;
 	}
 	
-	public static int div (int a, int b) {}
+	public static int div (int a, int b) {
+		int c = a/b;
+		return c;
+	}
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
